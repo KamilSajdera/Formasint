@@ -4,3 +4,6 @@ Przybliżony czas pracy podczas tworzenia poszczególnych sekcji:
 * featured section - 2h
 * product listing - 5.5h
 * SEO/testowanie/inne - 1.5h
+
+
+demo: https://saydi-x-formasint.netlify.app
