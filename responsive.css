@@ -1,0 +1,178 @@
+@media screen and (min-width: 500px) {
+  .swiper-slide {
+    width: 65% !important;
+  }
+
+  .banner {
+    background-position-y: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-nav {
+    width: 50%;
+  }
+
+  .swiper-slide {
+    width: 40% !important;
+  }
+
+  .banner {
+    background-position-y: -300px;
+  }
+
+  .products-list_item {
+    width: 31%;
+  }
+
+  .pop-up_content {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-nav {
+    width: 50%;
+  }
+
+  .hero {
+    padding-inline: 42px;
+    height: 100vh;
+  }
+
+  .hero-header {
+    padding-inline: 42px;
+  }
+
+  .hero-logo_logo {
+    width: 50%;
+  }
+
+  .featured-section {
+    padding-inline: 42px;
+  }
+
+  .swiper-slide {
+    width: 34% !important;
+  }
+
+  .products-list {
+    padding: 42px;
+    text-align: center;
+  }
+
+  .list-title {
+    width: auto;
+    display: inline-block;
+    margin-right: 24px;
+  }
+
+  .number-dropdown {
+    margin-inline: 0;
+    display: inline-flex;
+    flex-direction: column;
+    cursor: pointer;
+    top: 24px;
+    left: unset;
+    transform: none;
+  }
+
+  .number-dropdown.dropdown-active {
+    top: 12px;
+  }
+
+  .banner {
+    background-position-y: -450px;
+  }
+
+  .pop-up_content {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .logo-postscript {
+    display: block;
+  }
+
+  .header-menu {
+    width: 50%;
+  }
+
+  .header-nav {
+    transform: none;
+    width: 100%;
+    background: transparent;
+    height: auto;
+    position: initial;
+    padding-inline: 0;
+  }
+
+  .menu-topbar,
+  .header-hamburger {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    margin-top: 0;
+    text-align: center;
+    justify-content: center;
+    gap: 42px;
+  }
+
+  .list-item {
+    position: relative;
+  }
+
+  .list-item::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 0.1em;
+    background-color: #1d1d1d;
+    transition: width 150ms linear;
+  }
+
+  .list-item:hover::after {
+    width: 100%;
+  }
+
+  .header-postscript {
+    display: flex;
+  }
+
+  .hero-logo {
+    margin-top: 152px;
+  }
+
+  .featured-section {
+    padding-top: 96px;
+    padding-bottom: 64px;
+  }
+
+  .swiper-slide {
+    width: 25.3% !important;
+  }
+
+  .products-list_item {
+    width: 24%;
+  }
+
+  .banner {
+    width: 49.5%;
+    background-position-y: 48%;
+    height: auto;
+    padding: 32px 96px;
+  }
+
+  .pop-up_content {
+    width: 45%;
+  }
+
+  .pop-up_preview {
+    width: 65%;
+  }
+}
